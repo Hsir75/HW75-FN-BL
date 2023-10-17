@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"fn-bl\startup_stm32f103xb.o"
+"fn-bl\main.o"
+"fn-bl\gpio.o"
+"fn-bl\stm32f1xx_it.o"
+"fn-bl\stm32f1xx_hal_msp.o"
+"fn-bl\system_stm32f1xx.o"
+"fn-bl\stm32f1xx_hal_gpio_ex.o"
+"fn-bl\stm32f1xx_hal_tim.o"
+"fn-bl\stm32f1xx_hal_tim_ex.o"
+"fn-bl\stm32f1xx_hal.o"
+"fn-bl\stm32f1xx_hal_rcc.o"
+"fn-bl\stm32f1xx_hal_rcc_ex.o"
+"fn-bl\stm32f1xx_hal_gpio.o"
+"fn-bl\stm32f1xx_hal_dma.o"
+"fn-bl\stm32f1xx_hal_cortex.o"
+"fn-bl\stm32f1xx_hal_pwr.o"
+"fn-bl\stm32f1xx_hal_flash.o"
+"fn-bl\stm32f1xx_hal_flash_ex.o"
+"fn-bl\stm32f1xx_hal_exti.o"
+--strict --scatter "FN-BL\FN-BL.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "FN-BL.map" -o FN-BL\FN-BL.axf
