@@ -1,0 +1,3 @@
+D:/Desktop/work/HelloWordBoard/cmake-build-debug/CMakeFiles/HelloWord-Keyboard-fw.elf.dir
+D:/Desktop/work/HelloWordBoard/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Desktop/work/HelloWordBoard/cmake-build-debug/CMakeFiles/rebuild_cache.dir
